@@ -142,9 +142,9 @@ hr {
     border:1px solid var(--primary-color);
     display:inline-table;
     height: 35vh;
-    width: 22%;
+    width: 25%;
   padding: 2rem;
-  margin: 2rem;
+  margin: 1rem;
   border-radius: 1rem;
   text-align: center;
 }
