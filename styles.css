@@ -43,7 +43,6 @@ hr {
 
 /** links **/
 .link {
-  margin-right: 4rem;
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -56,7 +55,6 @@ hr {
   color: #fff;
   margin: 1rem auto;
   border-radius: 2rem;
-  margin-right: 2rem;
 }
 
 .link-secondary {
@@ -66,8 +64,6 @@ hr {
   border-radius: 2rem;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
-  margin-right: 3rem;
-
 }
 
 /** look into BEM naming convention for CSS **/
@@ -258,3 +254,10 @@ section p{
     padding-right: 2rem;
 }
 
+section .container-center .link-primary{
+  margin-right: 2rem;
+}
+
+section .container-center .link-secondary{
+  margin-right: 2rem;
+}
